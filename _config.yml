@@ -328,6 +328,7 @@ include:
   - _routes.json
   - .well-known
   - LICENSE.md
+  - assets
 
 
 # Plugins
@@ -374,8 +375,8 @@ plugins:
 # social:
 #   name:                <firstname> <lastname>
 #   links:
-#     - https://twitter.com/<username>
-#     - https://github.com/<username>
+#     - https://github.com/WillykPark
+#     - 
 
 
 # Plugin Configs
