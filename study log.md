@@ -1,10 +1,8 @@
 ---
-layout: projects
-title: Paper Review
+layout: list
+title: Study Log
+show_collection: study log
 description: >
   This is the Study Log for remembering and sharing the knowledge about Robotics, Machine / Deep / Reingforcement Leaerning.
-last_modified_at: 2018-08-03
-no_link_title: false 
-no_excerpt: false 
-hide_image: false
+no_groups: true
 ---
