@@ -48,14 +48,21 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             Blog
-    url:               /blog/
+  - title:             Study Log
+    url:               /study log/
+    submenu:
+      - title: Paper Review
+        url: /paper review/
+      - title: Robotics
+        url: /robotics/
+      - title: ML & RL
+        url: /ML & RL/
   - title:             Projects
     url:               /projects/
   - title:             Résumé*
     url:               /resume/
-  - title:             Documentation
-    url:               /docs/
+  # - title:             Documentation
+  #   url:               /docs/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
