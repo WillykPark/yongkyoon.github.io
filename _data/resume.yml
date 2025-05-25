@@ -2,12 +2,12 @@
 # If you don't have a JSON Resume you can just edit this YAML file instead.
 # See also: <https://jsonresume.org/>.
 basics:
-  name: "Richard Hendricks"
-  label: "Programmer"
-  picture: "https://via.placeholder.com/240x240"
-  email: ""
-  phone: "(912) 555-4321"
-  website: "https://piedpiper.com"
+  name: "Yongkyoon Park"
+  label: "Researcher & Engineer"
+  picture: ""
+  email: "park.yongkyoon@gmail.com"
+  phone: "(352) 219-3209"
+  #website: "https://https://willykpark.github.io/yongkyoon.github.io/"
   summary: >
     Richard hails from Tulsa.
     He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!)
@@ -19,32 +19,42 @@ basics:
     He could tell you about it, but THAT would NOT be a “length-limited” conversation!
     Open `_data/resume.yml` to edit this text.
   location:
-    address: "2712 Broadway St"
-    postalCode: "CA 94115"
-    city: "San Francisco"
+    address: "2370 SW Archer Rd"
+    postalCode: "32608"
+    city: "Gainesville"
     countryCode: "US"
-    region: "California"
+    region: "FL"
   profiles:
-    - network: "Twitter"
-      username: "RHendricksCEO"
-      url: ""
+    # - network: "Twitter"
+    #   username: "RHendricksCEO"
+    #   url: ""
     - network: "LinkedIn"
-      username: "Richard Hendricks"
-      url: ""
+      username: "Yongkyoon Park"
+      url: "https://linkedin.com/in/yongkyoon-park-178289258"
 work:
-  - company: "Pied Piper"
-    position: "CEO/President"
-    website: "https://piedpiper.com"
-    startDate: "2013-12-01"
+  - company: "Avikus USA"
+    position: "Engineering Intern"
+    website: "https://avikus.ai"
+    startDate: "2025-05-05"
     endDate: ""
-    summary: >
-      Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has
-      consistently fielded high Weisman Scores™ that are not merely competitive,
-      but approach the theoretical limit of lossless compression.
+    # summary: >
+    #   Developed the Autonomous System for the Boat using Computer Vision, Sensor Fusion.
+    #   Tested the products and exported the main issue for enforcing technologies.
     highlights:
-      - "Built an algorithm for artist to detect if their music was violating copy right infringement laws"
-      - "Successfully won Techcrunch Disrupt"
-      - "Optimized an algorithm that holds the current world record for Weisman Scores"
+      - "Developed the Autonomous System for the Boat using Computer Vision, Sensor Fusion."
+      - "Tested the products and exported the main issue for enforcing technologies."
+      - "Developed DevOps scripts for system monitoring and automation on Linux."
+  - company: "SK Inc."
+    position: "AI Consultant"
+    website: "https://www.skcc.co.kr/"
+    startDate: "2024-02-19"
+    endDate: "2024-08-09"
+    # summary: >
+    #   Developed the Autonomous System for the Boat using Computer Vision, Sensor Fusion.
+    #   Tested the products and exported the main issue for enforcing technologies.
+    highlights:
+      - "Established strategies and built business models to utilize AI in the clients’ major business areas such as IT Business, Procurement, Pharmaceutical Industry."
+      - "Developed roadmaps for maximizing business model profitability, based on the fundamental understanding of AI technologies and the ability to analyze investment feasibility."
 volunteer:
   - organization: "CoderDojo"
     position: "Teacher"
