@@ -23,6 +23,7 @@ This is my breif introduction, and if you want details, pleae check my [Resume]{
 - Republic of Korea Army / Signal Corps Officer (Captain) / 2017 – 2022
 - Batterfly Inc. / Machine Learning Researcher / 2022 – 2024
 - SK Inc. / AI Consultant / 2024
+
 ## Thank you!    
 &nbsp;
 &nbsp;
