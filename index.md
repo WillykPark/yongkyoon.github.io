@@ -1,47 +1,38 @@
 ---
 layout: page
-title: Thank You!
+title: About
 sitemap: false
 ---
 
-Thank you for buying the PRO version of Hydejack! 🎉
+## Hello World!
+This is **Yongkyoon Park**!     
+Thank you for visiting my Tech Blog! 🎉
 
-More than one year ago I was looking for a blogging platform but couldn't find it:
-One that would let me write posts in markdown with my own editor,
-one that didn't look awful buy modern design standards, and one that felt snappy on a mobile phone.
-That and more is now Hydejack. I hope you enjoy it [as much as I do](https://qwtel.com/).
+This space is intended to cultivate thoughtful exchange and collective growth through the sharing of knowledge, research, and critical discussion.
+I hope you enjoy it, and if you need, please contact me via [email](mailto:park.yongkyoon@gmail.com){:.heading.flip-title}
 
-## First Steps
-Start by reading the [Documentation]{:.heading.flip-title}.
-Specifically, the chapters below should be relevant now:
+## About
+I am currently a graduate student in the **University of Florid, ECE department.**    
+This is my breif introduction, and if you want details, pleae check my [Resume]{:.heading.flip-title}.
 
-* [Install]{:.heading.flip-title} --- How to install and run Hydejack.
-* [Config]{:.heading.flip-title} --- Once Jekyll is running you can start with basic configuration.
-{:.related-posts.faded}
+**Study**
+- BE : Korea Military Academy / Seoul, South Korea / 2013 – 2017
+- MS : University of Florida / Florida, United States / 2024 – 2026
+    
+**Career**
+- Republic of Korea Army / Signal Corps Officer (Captain) / 2017 – 2022
+- Batterfly Inc. / Machine Learning Researcher / 2022 – 2024
+- SK Inc. / AI Consultant / 2024
+## Thank you!    
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+     
+### 박용균
+안녕하세요.    
+로보틱스와 머신러닝/강화학습을 공부하고 연구하는 연구자/엔지니어 입니다.    
+잘부탁드립니다.
 
-After you've familiarized yourself with Hydejack, you can delete the following folders and files
-containing example content:
 
-~~~
-├── _featured_categories
-│   └── example.md
-├── _projects
-│   └── *
-├── docs
-├── example
-├── licenses
-├── assets
-│   └── img
-│       ├── blog
-│       ├── docs
-│       └── projects
-├── CHANGELOG.md
-├── forms-by-example.md
-├── LICENSE.md
-└── NOTICE.md
-~~~
-
-[documentation]: docs/README.md
-[install]: docs/install.md
-[upgrade]: docs/upgrade.md
-[config]: docs/config.md
+[Resume]: resume.md
