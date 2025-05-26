@@ -22,4 +22,56 @@
   <div class="sidebar-social">
     {% include components/social.html author=author %}
   </div>
+
+  <!-- 방문자 수 표시 -->
+  <div style="margin: 1rem 0; font-size: 0.9rem; line-height: 1.4;">
+    <strong id="visitor-stats">방문자 정보를 불러오는 중...</strong>
+  </div>
+
+  <script>
+    const totalKey = 'yongkyoon.github.io/total';  // 총 방문자 키
+    const todayKey = 'yongkyoon.github.io/' + new Date().toISOString().slice(0, 10);
+    const localVisitedKey = 'visited-' + todayKey;
+
+    if (!localStorage.getItem(localVisitedKey)) {
+      fetch(`https://api.countapi.xyz/hit/${todayKey}`)
+        .then(res => res.json())
+        .then(data => {
+          localStorage.setItem(localVisitedKey, 'true');
+          updateToday(data.value);
+        });
+    } else {
+      fetch(`https://api.countapi.xyz/get/${todayKey}`)
+        .then(res => res.json())
+        .then(data => {
+          updateToday(data.value);
+        });
+    }
+
+    fetch(`https://api.countapi.xyz/hit/${totalKey}`)
+      .then(res => res.json())
+      .then(data => {
+        updateTotal(data.value);
+      });
+
+    function updateToday(val) {
+      document.getElementById("visitor-stats").dataset.today = val;
+      updateDisplay();
+    }
+
+    function updateTotal(val) {
+      document.getElementById("visitor-stats").dataset.total = val;
+      updateDisplay();
+    }
+
+    function updateDisplay() {
+      const el = document.getElementById("visitor-stats");
+      const today = el.dataset.today;
+      const total = el.dataset.total;
+      if (today && total) {
+        el.innerText = `오늘 방문자: ${today} / 총 방문자: ${total}`;
+      }
+    }
+  </script>
+    
 </div>
