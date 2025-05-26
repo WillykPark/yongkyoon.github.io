@@ -12,7 +12,7 @@ This space is intended to cultivate thoughtful exchange and collective growth th
 I hope you enjoy it, and if you need, please contact me via [email](mailto:park.yongkyoon@gmail.com){:.heading.flip-title}
 
 ## About
-I am currently a graduate student in the **University of Florid, ECE department.**    
+I am currently a graduate student in the **University of Florida, ECE department.**    
 This is my breif introduction, and if you want details, pleae check my [Resume]{:.heading.flip-title}.
 
 **Study**
