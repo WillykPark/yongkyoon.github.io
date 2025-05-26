@@ -8,16 +8,16 @@ basics:
   email: "park.yongkyoon@gmail.com"
   phone: "(352) 219-3209"
   #website: "https://https://willykpark.github.io/yongkyoon.github.io/"
-  summary: >
-    Richard hails from Tulsa.
-    He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!)
-    Before starting Pied Piper, he worked for Hooli as a part time software developer.
-    While his work focuses on applied information theory,
-    mostly optimizing lossless compression schema of both the length-limited and adaptive variants,
-    his non-work interests range widely,
-    everything from quantum computing to chaos theory.
-    He could tell you about it, but THAT would NOT be a “length-limited” conversation!
-    Open `_data/resume.yml` to edit this text.
+  # summary: >
+  #   Richard hails from Tulsa.
+  #   He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!)
+  #   Before starting Pied Piper, he worked for Hooli as a part time software developer.
+  #   While his work focuses on applied information theory,
+  #   mostly optimizing lossless compression schema of both the length-limited and adaptive variants,
+  #   his non-work interests range widely,
+  #   everything from quantum computing to chaos theory.
+  #   He could tell you about it, but THAT would NOT be a “length-limited” conversation!
+  #   Open `_data/resume.yml` to edit this text.
   location:
     address: "2370 SW Archer Rd"
     postalCode: "32608"
@@ -55,59 +55,104 @@ work:
     highlights:
       - "Established strategies and built business models to utilize AI in the clients’ major business areas such as IT Business, Procurement, Pharmaceutical Industry."
       - "Developed roadmaps for maximizing business model profitability, based on the fundamental understanding of AI technologies and the ability to analyze investment feasibility."
-volunteer:
-  - organization: "CoderDojo"
-    position: "Teacher"
-    website: "https://coderdojo.com/"
-    startDate: "2012-01-01"
-    endDate: "2013-01-01"
-    summary: "Global movement of free coding clubs for young people."
+  - company: "Batterfly Inc."
+    position: "Machine Learning Researcher"
+    website: "https://batterfly.us/"
+    startDate: "2022-07-01"
+    endDate: "2024-02-09"
+    # summary: >
+    #   Developed the Autonomous System for the Boat using Computer Vision, Sensor Fusion.
+    #   Tested the products and exported the main issue for enforcing technologies.
     highlights:
-      - "Awarded 'Teacher of the Month'"
+      - "Developed a predictive AI model for the remaining lifetime of the rechargeable battery, and derived key influence factors using XAI algorithm that enable customers 
+        to use information to sustain the lifespan of rechargeable battery for up to 3 years, based on the fundamental knowledge of ML technology and data analysis ability"
+      - "Developed roadmaps for maximizing business model profitability, based on the fundamental understanding of AI technologies and the ability to analyze investment feasibility."
+  - company: "ROK Army"
+    position: "Signal Corps Officer(Engineer)"
+    website: ""
+    startDate: "2017-03-01"
+    endDate: "2022-06-30"
+    # summary: >
+    #   Developed the Autonomous System for the Boat using Computer Vision, Sensor Fusion.
+    #   Tested the products and exported the main issue for enforcing technologies.
+    highlights:
+      - "Identified 5 AI system development projects applicable to the military, with 2 of them being selected, and served as the project manager for the selected projects, based on the knowledge of AI technologies, network, and cyber security"
+      - "Managed Servers and Database for C4I system, and managed the Cyber Security Affairs."
+volunteer:
+  - organization: "KSEA"
+    position: "Vice President - Gainesville Chapter YG Group"
+    website: "https://fl.ksea.org/home"
+    startDate: "2024-08-23"
+    endDate: "2025-05-03"
+    # summary: "Global movement of free coding clubs for young people."
+    # highlights:
+    #   - "Awarded 'Teacher of the Month'"
 education:
-  - institution: "University of Oklahoma"
-    area: "Information Technology"
+  - institution: "University of Florida"
+    area: "Electrical and Computer Engineering"
+    studyType: "Master"
+    startDate: "2024-08-23"
+    endDate: ""
+    gpa: "3.77"
+    # courses:
+    #   - "DB1101 - Basic SQL"
+    #   - "CS2011 - Java Introduction"
+  - institution: "Korea Military Academy"
+    area: "Electrical Engineering"
     studyType: "Bachelor"
-    startDate: "2011-06-01"
-    endDate: "2014-01-01"
-    gpa: "4.0"
-    courses:
-      - "DB1101 - Basic SQL"
-      - "CS2011 - Java Introduction"
+    startDate: "2013-02-22"
+    endDate: "2017-02-24"
+    gpa: "3.22"
+    # courses:
+    #   - "DB1101 - Basic SQL"
+    #   - "CS2011 - Java Introduction"
 awards:
-  - title: "Digital Compression Pioneer Award"
-    date: "2014-11-01"
-    awarder: "Techcrunch"
-    summary: "There is no spoon."
-publications:
-  - name: "Video compression for 3d media"
-    publisher: "Hooli"
-    releaseDate: "2014-10-01"
-    website: "https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)"
-    summary: "Innovative middle-out compression algorithm that changes the way we store data."
+  - title: "Full Scholoarship for the Bachelor Degree"
+    date: "2013-02-22"
+    awarder: "Republic of Korea, Ministry of Defense"
+    # summary: "There is no spoon."
+  - title: "Scholoarship for the Master Degree"
+    date: "2025-05-20"
+    awarder: "LG Electronics Inc."
+  - title: "Awards for outstanding performance in Army Signal School Basic Officer Course "
+    date: "2017-06-13"
+    awarder: "Republic of Korea, Army"
+    # summary: "There is no spoon."
+# publications:
+#   - name: "Video compression for 3d media"
+#     publisher: "Hooli"
+#     releaseDate: "2014-10-01"
+#     website: "https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)"
+#     summary: "Innovative middle-out compression algorithm that changes the way we store data."
 skills:
-  - name: "Web Development"
+  - name: "Machine Learning"
     level: "Master"
     keywords:
-      - "HTML"
-      - "CSS"
-      - "Javascript"
-  - name: "Compression"
+      - "Python"
+      - "Matlab"
+  - name: "Robotics"
+    level: "Intermediate"
+    keywords:
+      - "C++"
+      - "Ros2"
+      - "Linux"
+  - name: "Database"
     level: "Master"
     keywords:
-      - "Mpeg"
-      - "MP4"
-      - "GIF"
+      - "My-SQL"
+      - "Linux"
 languages:
   - language: "English"
+    fluency: "Professional working proficiency"
+  - language: "Korean"
     fluency: "Native speaker"
-interests:
-  - name: "Wildlife"
-    keywords:
-      - "Ferrets"
-      - "Unicorns"
-references:
-  - name: "Erlich Bachman"
-    reference: >
-      It is my pleasure to recommend Richard, his performance working as a consultant for Main St.
-      Company proved that he will be a valuable addition to any company.
+# interests:
+#   - name: "Wildlife"
+#     keywords:
+#       - "Ferrets"
+#       - "Unicorns"
+# references:
+#   - name: "Erlich Bachman"
+#     reference: >
+#       It is my pleasure to recommend Richard, his performance working as a consultant for Main St.
+#       Company proved that he will be a valuable addition to any company.

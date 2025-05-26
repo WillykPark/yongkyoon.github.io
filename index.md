@@ -16,13 +16,13 @@ I am currently a graduate student in the **University of Florid, ECE department.
 This is my breif introduction, and if you want details, pleae check my [Resume]{:.heading.flip-title}.
 
 **Study**
-- BE : Korea Military Academy / Seoul, South Korea / 2013 – 2017
-- MS : University of Florida / Florida, United States / 2024 – 2026
+- BE : Korea Military Academy, Electrical Engineering / Seoul, South Korea / 2013 – 2017
+- MS : University of Florida, Electrical & Computer Engineering / Florida, United States / 2024 – 2026
     
 **Career**
-- Republic of Korea Army / Signal Corps Officer (Captain) / 2017 – 2022
-- Batterfly Inc. / Machine Learning Researcher / 2022 – 2024
 - SK Inc. / AI Consultant / 2024
+- Batterfly Inc. / Machine Learning Researcher / 2022 – 2024
+- Republic of Korea Army / Signal Corps Officer (Captain) / 2017 – 2022
 
 ## Thank you!    
 &nbsp;
