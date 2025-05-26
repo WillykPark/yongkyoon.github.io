@@ -23,55 +23,12 @@
     {% include components/social.html author=author %}
   </div>
 
-  <!-- 방문자 수 표시 -->
-  <div style="margin: 1rem 0; font-size: 0.9rem; line-height: 1.4;">
-    <strong id="visitor-stats">방문자 정보를 불러오는 중...</strong>
+  <div id="hits-counter-fixed"
+    style="position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%); z-index: 9999;
+              background: rgba(0,0,0,0.7); padding: 6px 10px; border-radius: 6px;">
+    <a href="https://hits.sh/willykpark.github.io/yongkyoon.github.io/">
+      <img alt="Hits" src="https://hits.sh/willykpark.github.io/yongkyoon.github.io.svg?view=today-total&style=flat-square&label=Hits%20%F0%9F%94%8E&color=060607&labelColor=9f9f9f"/></a>
+    </a>
   </div>
-
-  <script>
-    const totalKey = 'yongkyoon.github.io/total';  // 총 방문자 키
-    const todayKey = 'yongkyoon.github.io/' + new Date().toISOString().slice(0, 10);
-    const localVisitedKey = 'visited-' + todayKey;
-
-    if (!localStorage.getItem(localVisitedKey)) {
-      fetch(`https://api.countapi.xyz/hit/${todayKey}`)
-        .then(res => res.json())
-        .then(data => {
-          localStorage.setItem(localVisitedKey, 'true');
-          updateToday(data.value);
-        });
-    } else {
-      fetch(`https://api.countapi.xyz/get/${todayKey}`)
-        .then(res => res.json())
-        .then(data => {
-          updateToday(data.value);
-        });
-    }
-
-    fetch(`https://api.countapi.xyz/hit/${totalKey}`)
-      .then(res => res.json())
-      .then(data => {
-        updateTotal(data.value);
-      });
-
-    function updateToday(val) {
-      document.getElementById("visitor-stats").dataset.today = val;
-      updateDisplay();
-    }
-
-    function updateTotal(val) {
-      document.getElementById("visitor-stats").dataset.total = val;
-      updateDisplay();
-    }
-
-    function updateDisplay() {
-      const el = document.getElementById("visitor-stats");
-      const today = el.dataset.today;
-      const total = el.dataset.total;
-      if (today && total) {
-        el.innerText = `오늘 방문자: ${today} / 총 방문자: ${total}`;
-      }
-    }
-  </script>
-    
 </div>
+
