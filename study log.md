@@ -1,5 +1,5 @@
 ---
-layout: list
+layout: page
 title: Study Log
 show_collection: study log
 description: >
@@ -10,7 +10,7 @@ no_groups: true
 ## 🧠 Paper Review
 
 {% assign papers = site.paper_review | sort: 'date' | reverse %}
-<div class="projects">
+<div class="projects grid">
   {% for item in papers limit:3 %}
   <article class="project">
     {% if item.image %}
@@ -36,7 +36,7 @@ no_groups: true
 ## 🤖 Robotics
 
 {% assign robotics = site.robotics | sort: 'date' | reverse %}
-<div class="projects">
+<div class="projects grid">
   {% for item in robotics limit:3 %}
   <article class="project">
     {% if item.image %}
@@ -62,7 +62,7 @@ no_groups: true
 ## 🔬 ML & RL
 
 {% assign mlrl = site.ml_rl | sort: 'date' | reverse %}
-<div class="projects">
+<div class="projects grid">
   {% for item in mlrl limit:3 %}
   <article class="project">
     {% if item.image %}
