@@ -307,6 +307,18 @@ collections:
     permalink:         /projects/:path/
     output:            true
 
+  paper_review:
+    permalink:         /paper_review/:path/
+    output:            true  
+
+  robotics:
+    permalink:         /robotics/:path/
+    output:            true  
+
+  ml_rl:
+    permalink:         /ml_rl/:path/
+    output:            true 
+
 
 # File inclusion/exclusion
 # ----------------------------------------------------------------------------------------
