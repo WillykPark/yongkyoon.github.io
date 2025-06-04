@@ -20,6 +20,7 @@ This is my breif introduction, and if you want details, pleae check my [Resume]{
 - MS : University of Florida, Electrical & Computer Engineering / Florida, United States / 2024 – 2026
     
 **Career**
+- Avikus USA. / Engineering Intern / 2025
 - SK Inc. / AI Consultant / 2024
 - Batterfly Inc. / Machine Learning Researcher / 2022 – 2024
 - Republic of Korea Army / Signal Corps Officer (Captain) / 2017 – 2022

@@ -1,6 +1,6 @@
 ---
 layout: project
-title: '[Papaer Review] Informative Multiview Planning for Underwater Sensors'
+title: '[Papaer Review: RL] Informative Multiview Planning for Underwater Sensors'
 caption: Dogfooding Hydejack to sell Hydejack.
 description: >
   Paper Review for the "Informative Multiview Planning for Underwater Sensors." This papaer is the result of the research for the Under-water Drone's decision making using Informatation theory, Baysian theory etc.
