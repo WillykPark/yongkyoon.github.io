@@ -19,8 +19,8 @@ basics:
   #   He could tell you about it, but THAT would NOT be a “length-limited” conversation!
   #   Open `_data/resume.yml` to edit this text.
   location:
-    address: "2370 SW Archer Rd"
-    postalCode: "32608"
+    address: "4000 NW 51st St."
+    postalCode: "32606"
     city: "Gainesville"
     countryCode: "US"
     region: "FL"
