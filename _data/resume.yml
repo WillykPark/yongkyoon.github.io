@@ -32,11 +32,22 @@ basics:
       username: "Yongkyoon Park"
       url: "https://linkedin.com/in/yongkyoon-park-178289258"
 work:
+  - company: "LG Electronics"
+    position: "Software Engineering Intern"
+    website: "https://www.lg.com/us/"
+    startDate: "2025-07-21"
+    endDate: "2025-08-14"
+    # summary: >
+    #   Developed the Autonomous System for the Boat using Computer Vision, Sensor Fusion.
+    #   Tested the products and exported the main issue for enforcing technologies.
+    highlights:
+      - "Developed the Application for appliances"
+      - "Tested the products and solved the issues."
   - company: "Avikus USA"
     position: "Engineering Intern"
     website: "https://avikus.ai"
     startDate: "2025-05-05"
-    endDate: ""
+    endDate: "2025-07-11"
     # summary: >
     #   Developed the Autonomous System for the Boat using Computer Vision, Sensor Fusion.
     #   Tested the products and exported the main issue for enforcing technologies.
