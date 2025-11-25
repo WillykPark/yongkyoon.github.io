@@ -1,20 +1,20 @@
 ---
 layout: project
-title: '@qwtel'
-caption: How I use Hydejack on my personal site.
+title: 'Robot Arm Control Using a Haptic Glove via the ROS 2 Platform'
+caption: Robot Arm control Project.
 description: >
-  This is how I use Hydejack on my personal site. 
-  Much of the development is informed from my experience of using it myself, creating a tight feedback loop.
-date: 1 Jun 2020
+  This study presents a ROS 2-based framework for controlling a robotic arm using a haptic glove as an input interface.
+  The system enables real-time motion mapping to achieve accurate and responsive manipulation.
+date: 24 Apr 2024
 image: 
-  path: /assets/img/projects/qwtel.jpg
+  path: /assets/img/projects/robot_arm.png
   srcset: 
-    1920w: /assets/img/projects/qwtel.jpg
-    960w:  /assets/img/projects/qwtel@0,5x.jpg
-    480w:  /assets/img/projects/qwtel@0,25x.jpg
+    1920w: /assets/img/projects/robot_arm.png
+    960w:  /assets/img/projects/robot_arm@0,5x.png
+    480w:  /assets/img/projects/robot_arm@0,25x.png
 links:
-  - title: Link
-    url: https://qwtel.com/
+  - title: github repo
+    url: https://github.com/WillykPark/RobotArm_Control_Project.git
 accent_color: '#4fb1ba'
 accent_image:
   background: '#193747'
