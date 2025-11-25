@@ -1,20 +1,20 @@
 ---
 layout: project
-title: 'Robot Arm Control Using a Haptic Glove via the ROS 2 Platform'
+title: 'Robot Arm Control'
 caption: Robot Arm control Project.
 description: >
   This study presents a ROS 2-based framework for controlling a robotic arm using a haptic glove as an input interface.
-The system enables real-time motion mapping to achieve accurate and responsive manipulation.
+  The system enables real-time motion mapping to achieve accurate and responsive manipulation.
 date: 24 Apr 2024
 image: 
-  path: /assets/img/projects/robot_arm.png
+  path: /assets/img/projects/qwtel.jpg
   srcset: 
-    1920w: /assets/img/projects/robot_arm.png
-    960w:  /assets/img/projects/robot_arm@0,5x.png
-    480w:  /assets/img/projects/robot_arm@0,25x.png
+    1920w: /assets/img/projects/qwtel.jpg
+    960w:  /assets/img/projects/qwtel@0,5x.jpg
+    480w:  /assets/img/projects/qwtel@0,25x.jpg
 links:
   - title: Link
-    url: https://qwtel.com/
+    url: https://github.com/WillykPark/RobotArm_Control_Project.git
 accent_color: '#4fb1ba'
 accent_image:
   background: '#193747'
@@ -22,18 +22,26 @@ theme_color: '#193747'
 sitemap: false
 ---
 
-For my personal site I've toned it down a bit. Instead of a flashy sidebar image, I chose a solid background color.
-However, I've given [certain](https://qwtel.com/projects/ducky-hunting/) [pages](https://qwtel.com/projects/blocky-blocks/) big sidebar images, and let Hydejack blend back to normal when the user navigates away.
-
-While I love the font used for Hydejack's headings, for my personal site I felt less of a need to control the typesetting.
-That's why I'm not using Google Fonts, and instead use whatever is the default for the reader's operating system.
+This project enables real-time teleoperation of a simulated robotic arm using a haptic glove. The glove transmits spatial and finger position data over Wi-Fi, which is consumed by a ROS 2 node that controls a simulated robot arm in PyBullet. The architecture supports full simulation, testing on a single PC without ROS, or mocking the glove input.
 
 ```yml
-google_fonts: false
-font:         false
-font_heading: false
-font_code:    false
+haptic_glove_robot_arm/
+├── haptic_glove_robot_arm/          # ROS 2 package (main integration)
+│   ├── glove_publisher.py           # ROS node: receives glove data via socket, publishes to /glove_data
+│   ├── arm_subscriber.py           # ROS node: subscribes to /glove_data, simulates arm in PyBullet
+│
+├── haptic_glove_robot_arm_mock/     # Standalone scripts (no ROS)
+│   ├── glove_arm_simulator_no_ros.py # Direct glove-to-arm simulation via serial
+│   ├── glove_publisher_mock.py      # Mock publisher node for testing without hardware
+│
+├── haptic_glove_setup/              # Setup scripts for glove device
+│   ├── glove_arduino_setup.ino      # Arduino firmware for glove
+│   ├── glove_data_wifi_transition.py # Reads serial glove data, sends to ROS node over Wi-Fi
+│
+├── test/                            # Code quality tests
+├── demo/                            # Folder with the banner of the project and a demo
+├── resource/, LICENSE, setup.py, etc.
 ```
 
-The configuration I use to enable the system font on my site. Feel free to copy!
-{:.figcaption}
+<!-- The configuration I use to enable the system font on my site. Feel free to copy!
+{:.figcaption} -->
