@@ -72,7 +72,7 @@ The method integrates:
 │
 ├── results/                         # Model training results
 └── tb_logs/								    	   # Tensorboard logs
-```ss
+```
 
 <!-- The configuration I use to enable the system font on my site. Feel free to copy!
 {:.figcaption} -->
