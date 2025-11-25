@@ -4,7 +4,7 @@ title: 'Robot Arm Control Using a Haptic Glove via the ROS 2 Platform'
 caption: Robot Arm control Project.
 description: >
   This study presents a ROS 2-based framework for controlling a robotic arm using a haptic glove as an input interface.
-  The system enables real-time motion mapping to achieve accurate and responsive manipulation.
+The system enables real-time motion mapping to achieve accurate and responsive manipulation.
 date: 24 Apr 2024
 image: 
   path: /assets/img/projects/robot_arm.png
@@ -13,8 +13,8 @@ image:
     960w:  /assets/img/projects/robot_arm@0,5x.png
     480w:  /assets/img/projects/robot_arm@0,25x.png
 links:
-  - title: github repo
-    url: https://github.com/WillykPark/RobotArm_Control_Project.git
+  - title: Link
+    url: https://qwtel.com/
 accent_color: '#4fb1ba'
 accent_image:
   background: '#193747'
