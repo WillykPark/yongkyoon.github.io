@@ -10,8 +10,8 @@ image:
   path: /assets/img/projects/handwritten.jpg
   srcset: 
     1920w: /assets/img/projects/handwritten.jpg
-    960w:  /assets/img/projects/handwritten0,5x.jpg
-    480w:  /assets/img/projects/handwritten0,25x.jpg
+    960w:  /assets/img/projects/handwritten@0,5x.jpg
+    480w:  /assets/img/projects/handwritten@0,25x.jpg
 links:
   - title: Link
     url: https://github.com/WillykPark/Handwritten_Recognition_Project.git
@@ -39,7 +39,7 @@ Handwritten_Recognition_Project/
 │   ├── best.pt                                          # Has to be loaded for running the predictions on the test data.
 │   ├── lsst.pt 
 │
-├── data.yaml/                                           # info
+├── data.yaml/                                           # infoss
 ├── test.ipynb/                                          # Test code for model
 ├── train.ipynb/                                         # Training code for model
 ├── yolov8n.pt                                           # The YOLO model from the Ultralytics library
