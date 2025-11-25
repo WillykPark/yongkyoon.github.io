@@ -5,7 +5,7 @@ caption: Robot Arm control Project.
 description: >
   This study presents a ROS 2-based framework for controlling a robotic arm using a haptic glove as an input interface.
   The system enables real-time motion mapping to achieve accurate and responsive manipulation.
-date: 24 Apr 2024
+date: 24 Apr 2025
 image: 
   path: /assets/img/projects/robot_arm.png
   srcset: 
