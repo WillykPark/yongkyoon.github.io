@@ -9,7 +9,7 @@ date: 24 Apr 2024
 image: 
   path: /assets/img/projects/robot_arm.png
   srcset: 
-    1920w: /assets/img/projects/qwtel.jpg
+    1920w: /assets/img/projects/robot_arm.png
     960w:  /assets/img/projects/robot_arm@0,5x.png
     480w:  /assets/img/projects/robot_arm@0,25x.png
 links:
