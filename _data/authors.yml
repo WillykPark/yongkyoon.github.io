@@ -8,11 +8,13 @@ author1:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    
-    Open `_data/authors.yml` to edit this text.
+    Hi, there!
+    This is YK Park, Robotics engineer, 
+    keep learning and researching ML/RL for Robotics
+
+    안녕하세요.
+    로보틱스와 머신러닝/강화학습을 공부하고 연구하는 연구자/엔지니어 입니다.
+    잘부탁드립니다.
 
   # This photo will be used in the about section
   picture:
