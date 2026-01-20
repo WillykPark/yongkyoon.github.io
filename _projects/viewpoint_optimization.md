@@ -34,6 +34,7 @@ The method integrates:
  - Radon-transform–based orientation estimation
 
   #### POMDP-Guided Policy Learning
+
   During training, the agent uses:
 
     - CNN likelihoods

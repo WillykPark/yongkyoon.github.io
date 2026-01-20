@@ -87,15 +87,7 @@ author1:
 author2:
   name:              <firtname> <lastname>
   email:             <mail@domain.tld>
-  about:             |
-    Hi, there!
-    This is YK Park, Robotics engineer, 
-    keep learning and researching ML/RL for Robotics
-
-    안녕하세요.
-    로보틱스와 머신러닝/강화학습을 공부하고 연구하는 연구자/엔지니어 입니다.
-    잘부탁드립니다.
-    
+  about:             
   picture:           https://placehold.it/128x128
   twitter:           <username>
   github:            <username>
